@@ -13,7 +13,7 @@
     margin: (top: 3cm, bottom: 1cm, left: 1cm, right: 1cm),
     header: {
       align(bottom, grid(
-        columns: (1fr, 1fr),
+        columns: (5fr, 1fr),
         align(left, text(font: "TUM Neue Helvetica", fill: tum_blue, size: 28pt, [*#title*])),
         align(right, image("resources/TUM_Logo_blau.svg", height: 1cm))
       ))

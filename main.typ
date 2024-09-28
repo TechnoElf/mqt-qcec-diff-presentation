@@ -17,17 +17,18 @@
   degree: "Bachelor of Science (B.Sc.)",
   examiner: "Prof. Dr. Robert Wille",
   supervisor: "DI Lucas Berent",
-  submitted: "22.07.2024",
+  submitted: "28.09.2024",
   doc
 )
 
 #set math.vec(delim: "[")
 #set math.mat(delim: "[")
 
-#slide(title: "A section", [
-  #lorem(50)
-
-  - A point
-  - Another point
-])
+#include("content/introduction.typ")
+#include("content/outline.typ")
+#include("content/background.typ")
+#include("content/state.typ")
+#include("content/implementation.typ")
+#include("content/results.typ")
+#include("content/conclusion.typ")
 
