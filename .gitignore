@@ -1,0 +1,7 @@
+/.direnv/
+/.envrc
+
+/result
+/*.pdf
+/content/**/*.pdf
+/template/*.pdf
