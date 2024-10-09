@@ -58,9 +58,29 @@
   set page(
     footer: {
       text(font: "TUM Neue Helvetica", fill: tum_black, size: 14pt, [#author | #title | #submitted])
+    },
+    paper: "presentation-16-9",
+    margin: (top: 3cm, bottom: 1cm, left: 1cm, right: 1cm),
+    header: {
+      align(bottom, grid(
+        columns: (5fr, 1fr),
+        align(left, text(font: "TUM Neue Helvetica", fill: tum_blue, size: 28pt, [*#title*])),
+        align(right, image("resources/TUM_Logo_blau.svg", height: 1cm))
+      ))
     }
   )
 
   doc
+
+  title-slide(
+    title: title,
+    author: author,
+    chair: chair,
+    school: school,
+    degree: degree,
+    examiner: examiner,
+    supervisor: supervisor,
+    submitted: submitted
+  )
 }
 

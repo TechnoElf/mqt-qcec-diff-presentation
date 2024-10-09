@@ -8,6 +8,7 @@
 #import "@preview/quill:0.3.0"
 
 #import "template/conf.typ": conf, slide
+#import "template/conf.typ": conf, slide
 
 #show: doc => conf(
   title: "Equivalence Checking of Quantum Circuits using Diff Algorithms",
@@ -27,7 +28,6 @@
 #include("content/introduction.typ")
 #include("content/outline.typ")
 #include("content/background.typ")
-#include("content/state.typ")
 #include("content/implementation.typ")
 #include("content/results.typ")
 #include("content/conclusion.typ")
