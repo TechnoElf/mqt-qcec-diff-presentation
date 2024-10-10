@@ -18,7 +18,7 @@
   degree: "Bachelor of Science (B.Sc.)",
   examiner: "Prof. Dr. Robert Wille",
   supervisor: "DI Lucas Berent",
-  submitted: "28.09.2024",
+  submitted: "11.10.2024",
   doc
 )
 
